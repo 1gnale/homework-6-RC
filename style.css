@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.header-container {
+  background-color: rgba(0, 0, 0, 0.673);
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem;
+}
+
+.header-brand-nav {
+  position: relative;
+  right: 30%;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  right: 20%;
+}
+
+a {
+  color: whitesmoke !important;
+  text-decoration: none !important;
+}
+
+.background {
+  height: 1000px;
+  background-image: url(../src/platterjpg.jpg);
+  background-size: cover;
+}
+
+.tittle {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding-top: 350px;
+  font-size: 4.5rem;
+}
+
+.sub-tittle p{
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 50%;
+}
+
+.sub-tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.about {
+  height: 600px;
+  padding: 2rem;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+footer {
+  border: 5px solid lightgray;
+  background-color: #444444;
+}
+
+footer p{
+  color: #757372;
+  margin-top: 0.5rem;
+}
+
+.chat {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: #0ab5bb;
+  width: 80px;
+  height: 80px;
+  padding: 0.2rem;
+}
+
+.chat-center {
+  margin-top: 0.5rem;
+  margin-left: 0.6rem;
+}
